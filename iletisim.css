@@ -5,12 +5,14 @@
 }
 body{
     color: #ffffff;
-    background-color: #011627;
+   
     font-family: 'Ubuntu', sans-serif;
+    background-image: url(images/background2.jpg);
+    background-size: cover;
 }
 
 #contact{
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     overflow: hidden;
 }
@@ -119,3 +121,45 @@ body{
     color: #011627;
     background-color: #ffffff;
 }
+.banner{
+    height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(images/background2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 32px 0;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    cursor: pointer;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin:0 25px;
+    }
+    
+    .navbar ul li a{
+        text-decoration:none;
+        color: antiquewhite;
+    }
+    
+    .navbar ul li a:hover{
+        box-shadow: 0 2px  antiquewhite;
+        transition: 0.7s;
+    }
+    .maps{
+        float: right;
+    }
